@@ -92,7 +92,7 @@ function July_11_2021() {
                 <h2>FAQ</h2>
 
                 <p>
-                    So can you still cheat?
+                    <b>Can you still cheat?</b>
                 </p>
 
                 <p>
@@ -100,7 +100,7 @@ function July_11_2021() {
                 </p>
 
                 <p>
-                    So poly people have sex with everyone?
+                    <b>So poly people have sex with everyone?</b>
                 </p>
 
                 <p>
@@ -108,7 +108,7 @@ function July_11_2021() {
                 </p>
 
                 <p>
-                    Won’t I get a bunch of diseases?
+                    <b>Won’t I get a bunch of diseases?</b>
                 </p>
 
                 <p>
@@ -116,7 +116,7 @@ function July_11_2021() {
                 </p>
 
                 <p>
-                    What about raising a family?
+                    <b>What about raising a family?</b>
                 </p>
 
                 <p>
@@ -124,7 +124,7 @@ function July_11_2021() {
                 </p>
 
                 <p>
-                    Can you really love more than one person?
+                    <b>Can you really love more than one person at once?</b>
                 </p>
 
                 <p>
@@ -140,19 +140,19 @@ function July_11_2021() {
                 <h2>More Resources</h2>
 
                 <p>
-                    I probably did a pretty poor and inconclusive job explaining poly. Luckily there are a lot more comprehensive sources of poly learning. Here are a few of my favorites:
+                    I probably did a pretty poor job explaining poly. Luckily there are a lot more comprehensive sources of poly information. Here are a few of my favorites:
                 </p>
 
                 <p>
                     <ul>
                         <li>
-                            For a deep and comprehensive dive: “<a href="https://en.wikipedia.org/wiki/The_Ethical_Slut" title="Wikipedia Page">The Ethical Slut</a>” -- Janet W. Hardy and Dossie Easton (1997)
+                            For a deep dive: “<a href="https://en.wikipedia.org/wiki/The_Ethical_Slut" title="Wikipedia Page">The Ethical Slut</a>” -- Janet W. Hardy and Dossie Easton (1997)
                         </li>
                         <li>
-                            For an IRL depiction of a poly relationship: <a href="https://www.youtube.com/watch?v=ieE3z8HPw0Q" title="YouTube Link">Polyamorous Love Coaches Who Practice What They Preach</a>
+                            For an IRL example of a poly relationships: <a href="https://www.youtube.com/watch?v=ieE3z8HPw0Q" title="YouTube Link">Polyamorous Love Coaches Who Practice What They Preach</a>
                         </li>
                         <li>
-                            For a short primer on poly terms and relationships: <a href="https://adapowers.medium.com/the-coffee-break-polyamory-primer-6c64b4dc53de" title="Article Link">The Coffee Break Primer on Polyamory</a>
+                            For a short primer on everything poly: <a href="https://adapowers.medium.com/the-coffee-break-polyamory-primer-6c64b4dc53de" title="Article Link">The Coffee Break Primer on Polyamory</a>
                         </li>
                     </ul>
                 </p>

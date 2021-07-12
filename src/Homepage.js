@@ -10,10 +10,6 @@ function Homepage() {
             <br />
             <h1>Blog</h1>
             <PageFormat>
-                <p>
-                    This is a blog about healthy relationships, ethical non-monogamy (poly), and social anxiety.
-                </p>
-
                 <h6>Poly</h6>
 
                 <p><a href="/blog/july-11-2021">Why I am Poly</a></p>

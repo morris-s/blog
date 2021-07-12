@@ -14,6 +14,10 @@ function About() {
                     S Morris is a software developer based on the East coast of the United States.
                 </p>
 
+                <p>
+                    This is a blog about healthy relationships, ethical non-monogamy (poly), and social anxiety.
+                </p>
+
             </PageFormat>
 
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
