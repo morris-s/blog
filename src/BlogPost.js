@@ -23,7 +23,7 @@ class BlogPost extends React.Component {
             case "july-11-2021":
                 this.setState({
                     blogPost: <July_11_2021 />,
-                    title: "Test Title",
+                    title: "Why I am Poly",
                     date: <time datetime="2021-07-11">July 11<sup>th</sup>,
                     2021</time>
                 });
