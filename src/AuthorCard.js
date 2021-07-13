@@ -14,7 +14,7 @@ function AuthorCard(props) {
                         </Col>
                         <Col xs={8}>
                             <Card.Body>
-                                <Card.Title>S Morris</Card.Title>
+                                <Card.Title>S. Morris</Card.Title>
                                 <Card.Text>{props.date}</Card.Text>
                             </Card.Body>
                         </Col>
