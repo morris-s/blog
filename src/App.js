@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Homepage from "./Homepage";
-import BlogPost from ".//BlogPost";
-import About from ".//About";
+import BlogPost from "./BlogPost";
+import About from "./About";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -18,8 +18,11 @@ function App() {
             <Route path="/blog">
               <BlogPost />
             </Route>
-            <Route path="/about">
+            <Route exact path="/about">
               <About />
+            </Route>
+            <Route>
+              "404 -- not found"
             </Route>
           </Switch>
         </Router>

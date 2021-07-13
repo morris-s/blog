@@ -8,7 +8,7 @@ function NavBar() {
         <>
         <Router>
             <Navbar expand="md" sticky="top" bg="light"> 
-                <Navbar.Brand href="/">s morris</Navbar.Brand>
+                <Navbar.Brand href="/">s. morris</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
