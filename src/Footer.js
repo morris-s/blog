@@ -8,7 +8,7 @@ function Footer() {
             <footer>
                 <Navbar sticky="bottom" bg="light">
                     <Navbar.Text>
-                        <em>&copy; {GetYear()} S Morris. All rights reserved.</em>
+                        <em>&copy; {GetYear()} S. Morris. All rights reserved.</em>
                     </Navbar.Text>
                 </Navbar>
             </footer>

@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer"
 import PageFormat from "./PageFormat"
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 function About() {
     return (
@@ -10,8 +11,20 @@ function About() {
             <br />
             <h1>About</h1>
             <PageFormat>
+                <Container>
+                    <Row>
+                        <Col xs={3}></Col>
+                        <Col xs={6}>
+                            <Image src={process.env.PUBLIC_URL + "/images/headshot.png"} roundedCircle fluid />
+                        </Col>
+                        <Col xs={3}></Col>
+                    </Row>
+                </Container>
+
+                <br /><br />
+
                 <p>
-                    S Morris is a software developer based on the East coast of the United States.
+                    S. Morris is a software developer based on the East coast of the United States.
                 </p>
 
                 <p>
