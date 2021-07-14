@@ -1,22 +1,20 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NavBar() {
     return (
         <>
-        <Router>
-            <Navbar expand="md" sticky="top" bg="light"> 
-                <Navbar.Brand href="/">s. morris</Navbar.Brand>
+            <Navbar expand="md" sticky="top" bg="light">
+                <Navbar.Brand href={process.env.PUBLIC_URL + "/"}>s. morris</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/about">about</Nav.Link>
+                        <Link to="/about">about</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            </Router>
         </>
     );
 }

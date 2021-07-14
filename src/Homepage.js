@@ -1,7 +1,8 @@
 import React from "react";
 import NavBar from "./NavBar";
-import Footer from "./Footer"
-import PageFormat from "./PageFormat"
+import Footer from "./Footer";
+import PageFormat from "./PageFormat";
+import { Link } from "react-router-dom";
 
 function Homepage() {
     return (
@@ -12,7 +13,7 @@ function Homepage() {
             <PageFormat>
                 <h6>Poly</h6>
 
-                <p><a href="/blog/july-11-2021">Why I am Poly</a></p>
+                <p><Link to="/blog/july-11-2021">Why I am Poly</Link></p>
 
                 {/* <h6>Healthy Relationships</h6>
 

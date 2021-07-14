@@ -1,6 +1,6 @@
 import React from "react";
 
-function July_11_2021() {
+function July11th2021() {
     return (
         <>
             <article className="text-justify">
@@ -147,19 +147,19 @@ function July_11_2021() {
                     I probably did a pretty poor job explaining poly. Luckily there are a lot more knowledgeable sources of poly information. Here are a few of my favorites:
                 </p>
 
-                <p>
-                    <ul>
-                        <li>
-                            For a deep dive: “<a href="https://en.wikipedia.org/wiki/The_Ethical_Slut" title="Wikipedia Page">The Ethical Slut</a>” -- Janet W. Hardy and Dossie Easton (1997)
-                        </li>
-                        <li>
-                            For an IRL example of a poly relationship: <a href="https://www.youtube.com/watch?v=ieE3z8HPw0Q" title="YouTube Link">Polyamorous Love Coaches Who Practice What They Preach</a>
-                        </li>
-                        <li>
-                            For a short primer on everything poly: <a href="https://adapowers.medium.com/the-coffee-break-polyamory-primer-6c64b4dc53de" title="Article Link">The Coffee Break Primer on Polyamory</a>
-                        </li>
-                    </ul>
-                </p>
+              
+                <ul>
+                    <li>
+                        For a deep dive: “<a href="https://en.wikipedia.org/wiki/The_Ethical_Slut" title="Wikipedia Page">The Ethical Slut</a>” -- Janet W. Hardy and Dossie Easton (1997)
+                    </li>
+                    <li>
+                        For an IRL example of a poly relationship: <a href="https://www.youtube.com/watch?v=ieE3z8HPw0Q" title="YouTube Link">Polyamorous Love Coaches Who Practice What They Preach</a>
+                    </li>
+                    <li>
+                        For a short primer on everything poly: <a href="https://adapowers.medium.com/the-coffee-break-polyamory-primer-6c64b4dc53de" title="Article Link">The Coffee Break Primer on Polyamory</a>
+                    </li>
+                </ul>
+                
 
                 <br /><br /><br /><br /><br /><br /><br /><br />
                 
@@ -168,4 +168,4 @@ function July_11_2021() {
     );
 }
 
-export default July_11_2021;
+export default July11th2021;
