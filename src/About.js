@@ -24,7 +24,7 @@ function About() {
                 <br /><br />
 
                 <p>
-                    S. Morris is a software developer based on the East coast of the United States.
+                    S. Morris is a software developer based on the East Coast of the United States.
                 </p>
 
                 <p>

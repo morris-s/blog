@@ -12,14 +12,19 @@ class BlogPost extends React.Component {
         this.state = {
             blogPost: "",
             title: "",
-            date: ""
+            date: "",
         }
     }
 
     getPost() {
-        let idx = this.props.url.lastIndexOf("/")
+        let idx = this.props.url.lastIndexOf("/");
         let postName = this.props.url.slice(idx + 1);
         switch (postName) {
+            case "":
+                // Hash router has trouble getting the url if clicked from homepage. Reloading once fixes this.
+                // TODO: Will cause an infinite loop if user goes to url: .../blog/
+                window.location.reload();
+                break;
             case "july-11-2021":
                 this.setState({
                     blogPost: <July11th2021 />,
@@ -29,8 +34,6 @@ class BlogPost extends React.Component {
                 });
                 break;
             default:
-                // Hash router has trouble getting the url if clicked from homepage. Reloading once fixes this.
-                window.location.reload();
                 console.log(`Error: default case triggered. Post name: ${postName}`);
         }
     }
@@ -45,7 +48,6 @@ class BlogPost extends React.Component {
                 <PageFormat>
                     <AuthorCard title={this.state.title} date={this.state.date} />
                     {this.state.blogPost}
-                    {this.props.children}
                 </PageFormat>
                 <Footer />
             </>
